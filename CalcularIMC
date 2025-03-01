@@ -1,0 +1,9 @@
+def Imc(peso, altura):
+    imc = peso / altura ** 2
+
+    print("Tu imc es de: ", imc,)
+
+peso=float(input("Introduzca su peso (kg)"))
+altura=float(input("Introduzca su altura (m)"))
+
+Imc(peso, altura)
