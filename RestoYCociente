@@ -1,0 +1,8 @@
+n = float(input("Introduzca el primer numero"))
+m = float(input("Introduzca el segundo numero"))
+def RestoCociente(n,m):
+    cociente = n / m
+    resto = n % m    
+    print("El cociente de ambos numeros es: " ,int(cociente),)
+    print("El resto de ambos numeros es: " ,int(resto),)
+RestoCociente(n,m)
